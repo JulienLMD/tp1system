@@ -10,7 +10,7 @@ void sig_fpe(int sig)
     printf("\n");
 }
 
-
+//
 int main(int argc, char *argv[], char *envp[])
 {
     signal(SIGPIPE, sig_fpe);
