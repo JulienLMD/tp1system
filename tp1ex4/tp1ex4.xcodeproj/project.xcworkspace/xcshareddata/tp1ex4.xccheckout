@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43713FC5-45B4-4569-BA15-458C23CFA544</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tp1ex4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>852F6F276582ACB3E421F6CCBAD5F21C7B696962</key>
+		<string>https://github.com/JulienLMD/tp1system.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tp1ex4/tp1ex4.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>852F6F276582ACB3E421F6CCBAD5F21C7B696962</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JulienLMD/tp1system.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>852F6F276582ACB3E421F6CCBAD5F21C7B696962</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>852F6F276582ACB3E421F6CCBAD5F21C7B696962</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TP1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
