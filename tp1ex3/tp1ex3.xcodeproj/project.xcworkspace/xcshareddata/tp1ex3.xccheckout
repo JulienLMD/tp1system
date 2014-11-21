@@ -10,6 +10,8 @@
 	<string>tp1ex3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>852F6F276582ACB3E421F6CCBAD5F21C7B696962</key>
+		<string>https://github.com/JulienLMD/tp1system.git</string>
 		<key>8939415E7A88E737AD9C5DF0B6D8566F7EFD0649</key>
 		<string>https://github.com/JulienLMD/tp1system.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>tp1ex3/tp1ex3.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8939415E7A88E737AD9C5DF0B6D8566F7EFD0649</key>
+		<key>852F6F276582ACB3E421F6CCBAD5F21C7B696962</key>
 		<string>../../..</string>
+		<key>8939415E7A88E737AD9C5DF0B6D8566F7EFD0649</key>
+		<string>../../../../TP1</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/JulienLMD/tp1system.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8939415E7A88E737AD9C5DF0B6D8566F7EFD0649</string>
+	<string>852F6F276582ACB3E421F6CCBAD5F21C7B696962</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>8939415E7A88E737AD9C5DF0B6D8566F7EFD0649</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TP1</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>852F6F276582ACB3E421F6CCBAD5F21C7B696962</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tp1system</string>
 		</dict>
 	</array>
 </dict>
