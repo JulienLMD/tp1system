@@ -55,10 +55,17 @@ int main(int argc, char *argv[], char *envp[])
      * Envoi par le fils ‡ l'utilisateur du message contenu dans le tube
      */
     else if (idp == 0) {
+        
         /*
          * Redirection de l'entree standard vers le tube
          */
-        dup2(desctube[1], 1); // redirect stdout
+//        dup2(desctube[1], 1); // redirect stdout
+        close(0);
+        dup(desctube[0]); // redirect stdout
+        close(desctube[0]);
+//        close(desctube[1]);
+        
+//        read()
         
         /*
          * Pour voir la sortie sur l'ecran, on ferme le tube en ecriture.
@@ -68,7 +75,9 @@ int main(int argc, char *argv[], char *envp[])
         /*
          * Envoi du mail
          */
-        execl("/usr/bin/mail", "mail", utilisateur, 0);//working on mac os
+                execl("/usr/bin/mail", "mail", utilisateur, 0);//working on mac os
+//        execl("/usr/bin/mail", "mail", utilisateur, utilisateur);//working on mac os
+//        execl("/usr/bin/mail", "mail", "matthieudelaro@bruins-macbook-air.local", 0, "-s tp1ex2");//working on mac os
         perror("Exec a echoue !\n");
         exit(1);
     } else {
